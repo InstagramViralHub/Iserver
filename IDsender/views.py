@@ -23,3 +23,5 @@ def ig(request):
         server.send_message(email)
         print("DONE ")
         return HttpResponse("ok")
+    else:
+        return HttpResponse("Not Ok")
